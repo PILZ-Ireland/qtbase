@@ -40,6 +40,8 @@
 
 QT_BEGIN_NAMESPACE
 
+typedef void (*__eglMustCastToProperFunctionPointerType)(void);
+
 struct QWindowsLibEGL
 {
     bool init();

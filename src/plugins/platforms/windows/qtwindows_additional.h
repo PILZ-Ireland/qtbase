@@ -170,4 +170,7 @@ typedef TOUCHINPUT const * PCTOUCHINPUT;
 #  define WM_GESTURE 0x0119
 #endif
 
+// This is required for WinCE build with accessiblilty
+#define CHILDID_SELF 0
+
 #endif // QTWINDOWS_ADDITIONAL_H

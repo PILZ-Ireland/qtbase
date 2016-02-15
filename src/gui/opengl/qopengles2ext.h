@@ -11,6 +11,9 @@
 extern "C" {
 #endif
 
+typedef __int64 GLint64;
+typedef unsigned __int64 GLuint64;
+
 #ifndef __gl3_h_
 /* These types are defined with reference to <inttypes.h>
  * in the Apple extension spec, but here we use the Khronos
@@ -19,8 +22,8 @@ extern "C" {
  * If any other extensions using these types are defined,
  * the typedefs must move out of this block and be shared.
  */
-typedef khronos_int64_t GLint64;
-typedef khronos_uint64_t GLuint64;
+// typedef khronos_int64_t GLint64;
+// typedef khronos_uint64_t GLuint64;
 typedef struct __GLsync *GLsync;
 #endif
 

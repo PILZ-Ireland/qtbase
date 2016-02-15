@@ -66,7 +66,7 @@
 
 #include <winuser.h>
 #if !defined(WINABLEAPI)
-#  if defined(Q_OS_WINCE)
+#  if defined(Q_OS_WINCE) || defined(WINCE)
 #    include <bldver.h>
 #  endif
 #  include <winable.h>
